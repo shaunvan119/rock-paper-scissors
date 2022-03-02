@@ -1,4 +1,8 @@
-
+const handOptions = {
+    "rock" : "images/Rock.png",
+    "paper" :"images/Paper.png",
+    "scissors" :"images/Scissors.png"
+}
 
 const pickUserHand = (hand) => {
     console.log(hand);
@@ -9,4 +13,10 @@ const pickUserHand = (hand) => {
 
     let contest = document.querySelector(".contest");
     contest.style.display = "flex";
+
+    // set the user pick
+    if( hand == "rock") {
+    document.getElementById("userPickImage").src = "images/Rock.png"
+ }
+
 }
