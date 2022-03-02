@@ -59,6 +59,26 @@ body {
     letter-spacing: 2.5px;
 }
 
+.hands {
+    background-image: url("images/triangle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 476px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.scissors {
+    margin-left: 20px;
+}
+
+.paper {
+    margin-right: 20px;
+}
+
 
 
 
