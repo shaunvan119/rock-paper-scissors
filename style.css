@@ -92,6 +92,7 @@ body {
     width: 900px;
     display: flex;
     margin-top: 50px;
+    display: none;
 }
 
 .contest img {
